@@ -1,0 +1,72 @@
+nav ul{
+  list-style-type: none;
+  display: flex;
+}
+
+nav li{
+  margin-right: 15px;
+}
+
+nav a{
+  font-size: 1.3em;
+  color: fuchsia;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+nav a:hover
+{
+  color: lime;
+  border-bottom: 3px solid #760001;
+}
+
+header{
+  background: url('image/separation.jpeg')repeat-x bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 4em;
+  /*padding: 10% 20% 20% 50%;  */
+}
+
+nav{
+  padding: 0% 0% 0% 70%;
+}
+
+section{
+  double surlignement;
+}
+
+h1{
+  padding: 0% 0% 0% 30%;
+  padding-right: 50%;
+  margin-top: 5%;
+}
+ul{
+  text-align: left;
+}
+
+artticle{
+  text-align: center;
+  display: inline-block;
+  background-color: grey;
+}
+
+p{
+padding: 0% 20% 0% 40%;
+}
+
+ul{
+  text-align: center;
+width: auto;
+border-left: 20%;
+}
+input{
+  width: 500px;
+}
