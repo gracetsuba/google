@@ -5,19 +5,22 @@ nav ul{
 
 nav li{
   margin-right: 15px;
+  margin-left: 2em;
+  padding: 10%  1% 10% 1%;
 }
 
 nav a{
   font-size: 1.3em;
-  color: fuchsia;
+  color: grey;
   padding-bottom: 3px;
   text-decoration: none;
 }
 
 nav a:hover
 {
-  color: lime;
-  border-bottom: 3px solid #760001;
+  color: blue;
+  background-color: grey;
+  text-decoration-color: grey;
 }
 
 header{
@@ -39,7 +42,7 @@ nav{
   padding: 0% 0% 0% 70%;
 }
 
-section{
+article{
   double surlignement;
 }
 
@@ -50,6 +53,7 @@ h1{
 }
 ul{
   text-align: left;
+  display: inline-block;
 }
 
 artticle{
@@ -60,13 +64,43 @@ artticle{
 
 p{
 padding: 0% 20% 0% 40%;
+margin-top: 2em;
+display: inline-block;
 }
 
 ul{
   text-align: center;
 width: auto;
 border-left: 20%;
+padding-bottom: 10%;
 }
 input{
-  width: 500px;
+  width: 750px;
+margin-left: 30%;
+}
+
+li{
+margin-bottom: 10%;
+background="connexion/grey_de_fond.png">
+}
+
+nav a{
+  margin-bottom: 2em;
+  padding-top: 5%;
+  padding: 2% 10% 10% 2%;
+
+}
+
+section{
+  text-align: center;
+  display: inline-block;
+  background-color: grey;
+  padding: 7% 7% 0% 0%;
+  width: 1400px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  text-decoration-color: grey;
+  margin-left: 5px;
+  text-align: center;
 }
