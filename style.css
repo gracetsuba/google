@@ -1,12 +1,11 @@
-nav ul{
+nav li{
   list-style-type: none;
-  display: flex;
+  display: inline-block ;
 }
 
 nav li{
-  margin-right: 15px;
-  margin-left: 2em;
-  padding: 10%  1% 10% 1%;
+  margin: 0.5em;
+
 }
 
 nav a{
@@ -75,13 +74,13 @@ border-left: 20%;
 padding-bottom: 10%;
 }
 input{
-  width: 750px;
+  width: 600px;
 margin-left: 30%;
 }
 
-li{
+/*li{
 margin-bottom: 10%;
-background="connexion/grey_de_fond.png">
+background="connexion/grey_de_fond.png">*/
 }
 
 nav a{
@@ -92,8 +91,7 @@ nav a{
 }
 
 section{
-  text-align: center;
-  display: inline-block;
+  /*display: inline-block;
   background-color: grey;
   padding: 7% 7% 0% 0%;
   width: 1400px;
@@ -102,5 +100,33 @@ section{
   background-color: grey;
   text-decoration-color: grey;
   margin-left: 5px;
+  text-align: center;*/
+
+}
+
+.connexion{
+  color: #FFFFFF;
+  background-color: #4169E1;
+}
+
+section li{
+  padding-top: 5%;
+}
+
+.recherche li {
+  display: inline-block;
+  margin-right: 3em;
+  background-color: grey;
+}
+.recherche {
   text-align: center;
+}
+
+footer{
+  float: right;
+}
+footer li {
+  display: inline-block;
+  margin-right: 2em;
+  background-color: grey;
 }
